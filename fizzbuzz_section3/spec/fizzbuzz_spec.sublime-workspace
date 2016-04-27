@@ -1,0 +1,307 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text"
+			],
+			[
+				"number",
+				"number2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/dehoffkl/Documents/252/crypto-square_spec.js",
+			"settings":
+			{
+				"buffer_size": 1717,
+				"line_ending": "Windows",
+				"name": "var Crypto = require('../crypto-square');"
+			}
+		},
+		{
+			"contents": "var crypto = function(text) {\n	this.text = text;\n};\n\ncrypto.prototype.text = function() {\n	return this.message.replace(/[\\W]/g, \"\").tolowerCase();\n};\n\n\nCrypto.prototype.size = function() {\n	var length = this.normalizePlaintext().legnth;\n	return Math.ceil(Math.sqrt(legnth)); \n};\n\nCrypto.prototype.plainTextSegments = function() {\n	npt = this.normalizePlaintext(),\n		size = this.size(),\n		var segments = [];\n\n	for (var i = 0; i < npt.length; i += size) {\n		segments.push(npt.slice(i, i + size));\n	}\n\n		return segments; \n};\n\nCrypto.prototype.ciphertext = function() {\n	var ct = \"\";\n	size = this.size();\n	segs = this.plaintextSegments();\n\nfor (var i = 0; i < size; i += 1) {\n	for (var j = 0; j < segs.length; j += 1) {\n		ct += segs[j].charAt(i);\n	}\n}\n\n	return ct;\n\n};\n\nmodule.exports = Crypto;\n\n",
+			"file": "/C/Users/dehoffkl/Documents/252/crypto-spec.js",
+			"file_size": 835,
+			"file_write_time": 131054574530678263,
+			"settings":
+			{
+				"buffer_size": 792,
+				"line_ending": "Windows",
+				"name": "var crypto = function(text) {"
+			}
+		},
+		{
+			"contents": "var student = function(fn, Ln, email, side) {\n	this.first_name = fn;\n	this.last_name = ln;\n	this.email = email;\n	this.sid = sid;\n	this.courses = [];\n};\nstudent.prototype.register = function(course) {\n	this.courses.push(course);\n};\nstudetn.prototype.notify = function(message) {\n	message.send(this.email);\n};\nmodule.exports = student; ",
+			"settings":
+			{
+				"buffer_size": 334,
+				"line_ending": "Windows",
+				"name": "var student = function(fn, Ln, email, side) {"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/dehoffkl/Documents/252/crypto_spec.js",
+		"/C/Users/dehoffkl/Documents/252/hamming_section3/README.md",
+		"/C/Users/dehoffkl/Documents/252/hamming_section3/hamming.js",
+		"/C/Users/dehoffkl/Documents/252/hamming_section3/spec/hamming_spec.js",
+		"/C/Users/dehoffkl/Documents/252/fizzbuzz_section3/spec/fizzbuzz_spec.js",
+		"/C/Users/dehoffkl/Documents/252/fizzbuzz_section3/fizzbuzz.js",
+		"/C/Users/dehoffkl/Documents/252/fizzbuzz_section3/fb",
+		"/c/Users/dehoffkl/documents/252/math_section3/math",
+		"/c/Users/dehoffkl/documents/252/math_section3/spec/math_spec.js",
+		"/C/Users/dehoffkl/bin/math.js",
+		"/c/Users/dehoffkl/documents/252/hello",
+		"/C/Users/dehoffkl/Documents/252/math_section3/fizz",
+		"/C/Users/dehoffkl/bin/math_export.js",
+		"/c/Users/dehoffkl/documents/252/math_section3/math_spec.js",
+		"/c/Users/dehoffkl/documents/252/math_section3/math_spec",
+		"/C/Users/dehoffkl/bin/subl"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/dehoffkl/Documents/252/crypto-square_spec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var Crypto = require('../crypto-square');",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/dehoffkl/Documents/252/crypto-spec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								742,
+								742
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var crypto = function(text) {",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 362.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var student = function(fn, Ln, email, side) {",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fizzbuzz_spec.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 171.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
